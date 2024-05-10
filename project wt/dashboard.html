@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="heading"><a href="#"><b>Student Path</b></a></li>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+            Here are different fields that you can choose after 12th<br>
+            Click each field to view the courses you can choose related to that field.<br>
+        </p>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="engg.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Engineering<br>
+                <a href="engineering.html">view</a>
+        </div>
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="doc.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Medicine<br>
+            <a href="medical.html">view</a>
+        </div>
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="laww.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Law<br>
+            <a href="law.html">view</a>
+        </div>
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="eco.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Economics<br>
+            <a href="economics.html">view</a>    
+        </div>
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="com.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Commerce<br>
+            <a href="commerce.html">view</a>
+        </div>
+        <div class="grid-item"><br>
+            <div class="image-container">
+            <img src="art.jpg" alt="null" style="width:200px;height:200px;"><br>
+            </div>
+            Arts<br>
+            <a href="arts.html">view</a>
+            
+        </div>
+      </div>
+</body>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #440d44;
+}
+nav ul li.heading{
+    margin-right: 700px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    display: block;
+    color:rgb(238, 241, 241);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(172, 7, 181);
+}
+.grid-container {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color:white(241, 244, 196);
+  border: 1px solid rgb(29, 62, 54);
+  padding: 30px;
+  font-size: 30px;
+  text-align: left;
+}
+.info{
+    text-align: center;
+    font-size: 20px;
+}
+.image-container {
+   overflow:hidden;
+    border-radius:10%;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(53, 5, 53);
+  color:white(16, 234, 150);
+}
+.footerinfo{
+    font-size: 18px;
+    color:white;
+}
+</style>
+<footer>
+    <p class="footerinfo"><b>Written by us</b><br>
+    @2024 All rights not reserved
+    </p>
+  </footer>
+</html>

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engg Info</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="heading"><a href="#" ><b>Student Path</b></a></li>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+          Engineering is the designing, testing and building of machines, structures and processes using maths and science. Studying it can lead to a rewarding career..<br>
+          Here are the different courses in engineering<br>
+           Click the view colloges button under each field to see the top 3 colleges in india offering the course.<br>
+        </p>
+        <div class="grid-container">
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="cse.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Computer Science and Engineering<br>
+                    <button class="more-info-button" onclick="toggleInfocse()">View Colleges</button>
+           
+            <div class="more-info-content" id="moreInfocse">
+                <p class="colleges">
+                <b>Top colleges for CSE</b><br>
+                            1.Indian Institute of Technology Madras<br>
+                            2.Indian Institute of Technology Bombay<br>
+                            3.Indian Institute of Technology Delhi<br>
+            </p>
+              </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="ece.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Electronics and Communication Engineering<br>
+                    <button class="more-info-button" onclick="toggleInfoece()">View Colleges </button>
+                    <div class="more-info-content" id="moreInfoece">
+                        <p class="colleges">
+                        <b>Top colleges for ECE</b><br>
+                            1.Indian Institute of Technology Bombay<br>
+                            2.Indian Institute of Technology Delhi<br>
+                            3.Indian Institute of Technology Madras<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="eee.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Electrical and Electronics Engineering<br>
+                    <button class="more-info-button" onclick="toggleInfoeee()">View Colleges</button>
+                    <div class="more-info-content" id="moreInfoeee">
+                        <p class="colleges">
+                        <b>Top colleges for EEE</b><br>
+                            1.Indian Institute of Technology Madras<br>
+                            2.Indian Institute of Technology Bombay<br>
+                            3.Indian Institute of Technology Delhi<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="mec.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Mechanical Engineering<br>
+                <button class="more-info-button" onclick="toggleInfome()">View Colleges</button>
+                <div class="more-info-content" id="moreInfome">
+                    <p class="colleges">
+                    <b>Top colleges for Mechanical Engineering</b><br>
+                        1.Indian Institute of Technology Madras<br>
+                        2.Indian Institute of Technology Delhi<br>
+                        3.Indian Institute of Technology Bombay<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="civil.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Civil Engineering<br>
+                <button class="more-info-button" onclick="toggleInfociv()">View Colleges</button>
+                <div class="more-info-content" id="moreInfociv">
+                    <p class="colleges">
+                    <b>Top colleges for Civil Engineering</b><br>
+                        1.Indian Institute of Technology Bombay<br>
+                        2.Indian Institute of Technology Delhi<br>
+                        3.Indian Institute of Technology Madras<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="chem.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                Chemical Engineering<br>
+                <button class="more-info-button" onclick="toggleInfoce()">View Colleges</button>
+                <div class="more-info-content" id="moreInfoce">
+                    <p class="colleges">
+                    <b>Top colleges for Chemical Engineering</b><br>
+                        1.Indian Institute of Technology Bombay<br>
+                        2.Indian Institute of Technology Delhi<br>
+                        3.Indian Institute of Technology Kanpur<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="aero.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Aerospace Engineering<br>
+              <button class="more-info-button" onclick="toggleInfoare()">View Colleges</button>
+              <div class="more-info-content" id="moreInfoare">
+                  <p class="colleges">
+                  <b>Top colleges for Aerospace Engineering</b><br>
+                      1.Indian Institute of Technology Bombay<br>
+                      2.Indian Institute of Technology Madras<br>
+                      3.Indian Institute of Space Science and Technology(IIST),Thiruvananthapuram<br>
+              </p>
+                </div>
+          </div>
+          <div class="grid-item"><br>
+            <div class="image-container">
+              <img src="auto.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+              </div>
+            Automobile Engineering<br>
+            <button class="more-info-button" onclick="toggleInfoauto()">View Colleges</button>
+            <div class="more-info-content" id="moreInfoauto">
+                <p class="colleges">
+                <b>Top colleges for Automobile Engineering</b><br>
+                    1.Indian Institute of Technology Madras<br>
+                    2.Indian Institute of Technology Delhi<br>
+                    3.Birla Institute of Technology and Science(BITS)Pilani<br>
+            </p>
+              </div>
+        </div>
+        <div class="grid-item"><br>
+          <div class="image-container">
+            <img src="ee.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+            </div>
+          Environmental Engineering<br>
+          <button class="more-info-button" onclick="toggleInfoee()">View Colleges</button>
+          <div class="more-info-content" id="moreInfoee">
+              <p class="colleges">
+              <b>Top colleges for Environmental Engineering</b><br>
+                  1.Indian Institute of Technology Bombay<br>
+                  2.Indian Institute of Technology Delhi<br>
+                  3.Indian Institute of Technology Kharagpur<br>
+          </p>
+            </div>
+      </div>
+      <div class="grid-item"><br>
+        <div class="image-container">
+          <img src="ae.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+          </div>
+        Agriculture Engineering<br>
+        <button class="more-info-button" onclick="toggleInfoagr()">View Colleges</button>
+        <div class="more-info-content" id="moreInfoagr">
+            <p class="colleges">
+            <b>Top colleges for  Agriculture Engineering</b><br>
+            1.Indian Agricultural Research Institute (IARI), New Delhi<br>
+            2.Punjab Agricultural University (PAU), Ludhiana<br>
+            3.Indian Institute of Technology (IIT) Kharagpur<br>
+        </p>
+          </div>
+    </div>
+    <div class="grid-item"><br>
+      <div class="image-container">
+        <img src="rob.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+        </div>
+      Robotics<br>
+      <button class="more-info-button" onclick="toggleInforob()">View Colleges</button>
+      <div class="more-info-content" id="moreInforob">
+          <p class="colleges">
+          <b>Top colleges for Robotics</b><br>
+              1.Indian Institute of Technology Bombay<br>
+              2.Indian Institute of Technology Madras<br>
+              3.Indian Institute of Technology Kanpur<br>
+      </p>
+        </div>
+  </div>
+  <div class="grid-item"><br>
+    <div class="image-container">
+      <img src="mat.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+      </div>
+    Material Engineering<br>
+    <button class="more-info-button" onclick="toggleInfomat()">View Colleges</button>
+    <div class="more-info-content" id="moreInfomat">
+        <p class="colleges">
+        <b>Top colleges for  Material Engineering</b><br>
+            1.Indian Institute of Technology Madras<br>
+            2.Indian Institute of Technology Bombay<br>
+            3.Indian Institute of Technology Kharagpur <br>
+    </p>
+      </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="mar.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  Marine Engineering<br>
+  <button class="more-info-button" onclick="toggleInfomar()">View Colleges</button>
+  <div class="more-info-content" id="moreInfomar">
+      <p class="colleges">
+      <b>Top colleges for Marine Engineering</b><br>
+          1.Indian Institute of Technology (IIT) Kharagpur<br>
+          2.Indian Maritime University (IMU)<br>
+          3.Cochin University of Science and Technology (CUSAT)<br>
+  </p>
+    </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="min.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  Mining Engineering<br>
+  <button class="more-info-button" onclick="toggleInfomin()">View Colleges</button>
+  <div class="more-info-content" id="moreInfomin">
+      <p class="colleges">
+      <b>Top colleges for Mining Engineering</b><br>
+      1.Indian Institute of Technology (Indian School of Mines), Dhanbad<br>
+      2.National Institute of Technology, Raipur<br>
+      3.National Institute of Technology, Rourkela<br>
+  </p>
+    </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="biom.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  Bio Medical Engineering<br>
+  <button class="more-info-button" onclick="toggleInfobme()">View Colleges</button>
+  <div class="more-info-content" id="moreInfobme">
+      <p class="colleges">
+      <b>Top colleges for Bio Medical Engineering</b><br>
+          1.Indian Institute of Technology Delhi<br>
+          2.Indian Institute of Technology Kharagpur<br>
+          3.Indian Institute of Technology Madras<br>
+  </p>
+    </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="biot.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  BioTechnology <br>
+  <button class="more-info-button" onclick="toggleInfobt()">View Colleges</button>
+  <div class="more-info-content" id="moreInfobt">
+      <p class="colleges">
+      <b>Top colleges for BioTechnology</b><br>
+          1.Indian Institute of Technology Bombay<br>
+          2.Indian Institute of Technology Kharagpur<br>
+          3.Indian Institute of Technology Madras<br>
+  </p>
+    </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="pe.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  Power Engineering<br>
+  <button class="more-info-button" onclick="toggleInfope()">View Colleges</button>
+  <div class="more-info-content" id="moreInfope">
+      <p class="colleges">
+      <b>Top colleges for Power Engineering</b><br>
+          1.Indian Institute of Technology Bombay<br>
+          2.Indian Institute of Technology Delhi<br>
+          3.Indian Institute of Technology Madras<br>
+  </p>
+    </div>
+</div>
+<div class="grid-item"><br>
+  <div class="image-container">
+    <img src="fe.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+    </div>
+  Foundation Engineering<br>
+  <button class="more-info-button" onclick="toggleInfofe()">View Colleges</button>
+  <div class="more-info-content" id="moreInfofe">
+      <p class="colleges">
+      <b>Top colleges for Foundation Engineering</b><br>
+          1.Indian Institute of Technology Madras<br>
+          2.Indian Institute of Technology Bombay<br>
+          3.Indian Institute of Technology Kharagpur<br>
+  </p>
+    </div>
+</div>
+          </div>
+    </div>
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav {
+      background-color: #370138;
+  }
+  nav ul li.heading{
+      margin-right: 700px;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+  }
+  
+  nav ul li {
+      margin-right: 20px;
+  }
+  
+  nav ul li:last-child {
+      margin-right: 0;
+  }
+  
+  nav ul li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  nav ul li a:hover {
+      background-color:rgb(172, 7, 181);
+  }
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color:white(231, 230, 234, 0.8);
+    border: 1px solid white(12, 4, 4, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(78, 2, 2);
+  }
+  .info{
+      text-align: center;
+      font-size: 20px;
+      color:rgb(40, 108, 5)
+  }
+  .image-container {
+     
+      overflow: hidden;
+      border-radius: 10%;
+  }
+.help{
+    font-size: 12px;
+}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:black;
+    color: white;
+  }
+  .footerinfo{
+      font-size: 18px;
+  }
+  .more-info-button {
+    background-color: rgb(4, 40, 81);
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .more-info-content {
+    color:indigo;
+    display: none;
+    margin-top: 10px;
+  }
+  .colleges{
+    font-size: 17px;
+  }
+  </style>
+<script>
+function toggleInfocse() {
+  var moreInfocse = document.getElementById("moreInfocse");
+  if (moreInfocse.style.display === "none") {
+    moreInfocse.style.display = "block";
+  } else {
+    moreInfocse.style.display = "none";
+  }
+}
+function toggleInfoece() {
+  var moreInfoece = document.getElementById("moreInfoece");
+  if (moreInfoece.style.display === "none") {
+    moreInfoece.style.display = "block";
+  } else {
+    moreInfoece.style.display = "none";
+  }
+}
+function toggleInfoeee() {
+  var moreInfoeee = document.getElementById("moreInfoeee");
+  if (moreInfoeee.style.display === "none") {
+    moreInfoeee.style.display = "block";
+  } else {
+    moreInfoeee.style.display = "none";
+  }
+}
+function toggleInfome() {
+  var moreInfome = document.getElementById("moreInfome");
+  if (moreInfome.style.display === "none") {
+    moreInfome.style.display = "block";
+  } else {
+    moreInfome.style.display = "none";
+  }
+}
+function toggleInfociv() {
+  var moreInfociv = document.getElementById("moreInfociv");
+  if (moreInfociv.style.display === "none") {
+    moreInfociv.style.display = "block";
+  } else {
+    moreInfociv.style.display = "none";
+  }
+}
+function toggleInfoce() {
+  var moreInfoce = document.getElementById("moreInfoce");
+  if (moreInfoce.style.display === "none") {
+    moreInfoce.style.display = "block";
+  } else {
+    moreInfoce.style.display = "none";
+  }
+}
+function toggleInfoare() {
+  var moreInfoare = document.getElementById("moreInfoare");
+  if (moreInfoare.style.display === "none") {
+    moreInfoare.style.display = "block";
+  } else {
+    moreInfoare.style.display = "none";
+  }
+}
+function toggleInfoauto() {
+  var moreInfoauto= document.getElementById("moreInfoauto");
+  if (moreInfoauto.style.display === "none") {
+    moreInfoauto.style.display = "block";
+  } else {
+    moreInfoauto.style.display = "none";
+  }
+}
+function toggleInfoee() {
+  var moreInfoee = document.getElementById("moreInfoee");
+  if (moreInfoee.style.display === "none") {
+    moreInfoee.style.display = "block";
+  } else {
+    moreInfoee.style.display = "none";
+  }
+}
+function toggleInfoagr() {
+  var moreInfoagr = document.getElementById("moreInfoagr");
+  if (moreInfoagr.style.display === "none") {
+    moreInfoagr.style.display = "block";
+  } else {
+    moreInfoagr.style.display = "none";
+  }
+}
+function toggleInforob() {
+  var moreInforob = document.getElementById("moreInforob");
+  if (moreInforob.style.display === "none") {
+    moreInforob.style.display = "block";
+  } else {
+    moreInforob.style.display = "none";
+  }
+}
+function toggleInfomat() {
+  var moreInfomat = document.getElementById("moreInfomat");
+  if (moreInfomat.style.display === "none") {
+    moreInfomat.style.display = "block";
+  } else {
+    moreInfomat.style.display = "none";
+  }
+}
+function toggleInfomar() {
+  var moreInfomar = document.getElementById("moreInfomar");
+  if (moreInfomar.style.display === "none") {
+    moreInfomar.style.display = "block";
+  } else {
+    moreInfomar.style.display = "none";
+  }
+}
+function toggleInfomin() {
+  var moreInfomin = document.getElementById("moreInfomin");
+  if (moreInfomin.style.display === "none") {
+    moreInfomin.style.display = "block";
+  } else {
+    moreInfomin.style.display = "none";
+  }
+}
+function toggleInfobme() {
+  var moreInfobme = document.getElementById("moreInfobme");
+  if (moreInfobme.style.display === "none") {
+    moreInfobme.style.display = "block";
+  } else {
+    moreInfobme.style.display = "none";
+  }
+}
+function toggleInfobt() {
+  var moreInfobt = document.getElementById("moreInfobt");
+  if (moreInfobt.style.display === "none") {
+    moreInfobt.style.display = "block";
+  } else {
+    moreInfobt.style.display = "none";
+  }
+}
+function toggleInfope() {
+  var moreInfope = document.getElementById("moreInfope");
+  if (moreInfope.style.display === "none") {
+    moreInfope.style.display = "block";
+  } else {
+    moreInfope.style.display = "none";
+  }
+}
+function toggleInfofe() {
+  var moreInfofe = document.getElementById("moreInfofe");
+  if (moreInfofe.style.display === "none") {
+    moreInfofe.style.display = "block";
+  } else {
+    moreInfofe.style.display = "none";
+  }
+}
+</script>
+  </html>

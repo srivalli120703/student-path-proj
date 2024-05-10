@@ -1,0 +1,567 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Info</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="heading"><a href="#" ><b>Student Path</b></a></li>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+            Medical courses after completing 12th grade provide specialized education and training in various aspects of healthcare and medicine
+            Here are the different medical courses<br>
+            Click the view colloges button under each field to see the top 3 colleges in india offering the course.<br>
+        </p>
+        <div class="grid-container">
+            <div class="grid-item"><br>
+                <div class="image-container">
+                <img src="mbbs.jpg" style="width:273.39px;height:210px; border-radius: 25px;"><br>
+                </div>
+                Bachelor of Medicine & Bachelor of Surgery(MBBS)<br>
+                    <button class="more-info-button" onclick="toggleInfombbs()">View Colleges</button>
+           
+            <div class="more-info-content" id="moreInfombbs">
+                <p class="colleges" style="color:black">
+                <b>Top colleges for MBBS</b><br>
+                1.All India Institute of Medical Sciences(AIIMS), New Delhi<br>
+                2.Post Graduate Institute of Medical Education and Research(PGIMER), Chandigarh<br>
+                3.Christian Medical College(CMC), Vellore<br>
+            </p>
+              </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bds.jpg" style="width:250.39px;height:210px; border-radius: 25px;"><br>
+                </div>
+                Bachelor of Dental Surgery(BDS)<br>
+                    <button class="more-info-button" onclick="toggleInfobds()">View Colleges </button>
+                    <div class="more-info-content" id="moreInfobds">
+                        <p class="colleges" style="color:black">
+                        <b>Top colleges for BDS</b><br>
+                        1.King's George Medical University(KGMU), Lucknow<br>
+                        2.Maulana Azad Institute of Dental Sciences(MAIDS), New Delhi<br>
+                        3.Pt Bhagwat Dayal Sharma Post Graduate Institute of Medical Science(PGIMS), Haryana<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bams.jpg" style="width:253.39px;height:210px; border-radius: 25px;"><br>
+                </div>
+                Bachelor of Ayurvedic Medicine & Surgery(BAMS)<br>
+                    <button class="more-info-button" onclick="toggleInfobams()">View Colleges</button>
+                    <div class="more-info-content" id="moreInfobams">
+                        <p class="colleges" style="color:black">
+                        <b>Top colleges for BAMS</b><br>
+                            1.Banaras Hindu University(BHU), Varanasi<br>
+                            2.Dr. D.Y. Patil Vidyapeeth(DPU), Pune<br>
+                            3.Institue of Medical Sciences(IMS), Varanasi<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bnys.jpg" style="width:273.39px;height:210px; border-radius:25px;"><br>
+                </div>
+              Bachelor of Naturopathy & Yogic Sciences(BNYS)<br>
+                <button class="more-info-button" onclick="toggleInfobnys()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobnys">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BNYS</b><br>
+                        1.Suryadatta Group of Institutions, Pune<br>
+                        2.DY Patil University, Mumbai<br>
+                        3.Dr. BabaSaheb Ambedkar Open University(BAOU), Ahmedabad<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bsms.jpg" style="width:273.39px;height:210px;border-radius:25px;"><br>
+                </div>
+              Bachelor of Siddha Medicine & Surgery(BSMS)<br>
+                <button class="more-info-button" onclick="toggleInfobsms()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobsms">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BSMS</b><br>
+                        1.Akila Thiruvithamcore Siddha Vaidhya Sangham, Kanyakumari<br>
+                        2.Govt Siddha Medical College, Chennai<br>
+                        3.Govt Siddha Medical College, Tirunelveli<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bhms.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Homeopathic Medicine & Surgery(BHMS)<br>
+                <button class="more-info-button" onclick="toggleInfobhms()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobhms">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BHMS</b><br>
+                        1.Dr. D.Y. Patil Vidyapeeth(DPU), Pune<br>
+                        2.Bharati Vidyapeeth Deemed University(BVDU), Pune<br>
+                        3.Sophia Homeopathic Medical College and Research Center(SHMCRC), Gwalior<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bums.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Unani Medicine & Surgery(BUMS)<br>
+                <button class="more-info-button" onclick="toggleInfobums()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobums">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BUMS</b><br>
+                        1.Ahmad Garib Unani Medical College and As Salam Hospital, Akkalkuva, Maharashtra<br>
+                        2.Aligarh Muslim University, Aligarh<br>
+                        3.Aryabhatta Knowledge University(AKU), Patna<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bscn.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Science(Nursing)<br>
+                <button class="more-info-button" onclick="toggleInfonurs()">View Colleges</button>
+                <div class="more-info-content" id="moreInfonurs">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Sc(Nursing)</b><br>
+                        1.Christian Medical College(CMC), Vellore<br>
+                        2.National Institute of Mental Health and Neuro Sciences(NIMHANS), Bangalore<br>
+                        3.Jawaharlal Institute of Post Graduate Medical Eductaion and Research(JIPMER), Pondicherry<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bo.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Optometry(B.Optom)<br>
+                <button class="more-info-button" onclick="toggleInfoopto()">View Colleges</button>
+                <div class="more-info-content" id="moreInfoopto">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Optom</b><br>
+                        1.Alakh Prakash Goyal Shimla University(APGSU), Shimla<br>
+                        2.All India Institute of Medical Sciences(AIIMS), New Delhi<br>
+                        3.All India Institute of Medical Sciences(AIIMS), Rishikesh, Uttarakhand<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bot.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Occupational Therapy(BOT)<br>
+                <button class="more-info-button" onclick="toggleInfobot()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobot">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BOT</b><br>
+                        1.Amity University, Noida<br>
+                        2.Annamalai University, Tamil Nadu<br>
+                        3.Aryabhatta Knowledge University(AKU), Patna<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bpt.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Physiotherapy(BPT)<br>
+                <button class="more-info-button" onclick="toggleInfobpt()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobpt">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for BPT</b><br>
+                        1.Post Graduate Institute of Medical Education and Research(PGIMER), Chandigarh<br>
+                        2.Christian Medical College(CMC), Vellore<br>
+                        3.Sanjay Gandhi Post Graduate Institute of Medical Sciences(SGPGIMS), Lucknow<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bstcm.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Science(Trauma Care Management)<br>
+                <button class="more-info-button" onclick="toggleInfotcm()">View Colleges</button>
+                <div class="more-info-content" id="moreInfotcm">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Sc(TCM)</b><br>
+                        1.SRMCRI, Chennai<br>
+                        2.Datta Megha Institute of Higher Education and Research, Nagpur<br>
+                        3.Aarupadai Veedu Medical College and Hospitals, Pondicherry<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="dp.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Doctor of Pharmacy(Pharm.D)<br>
+                <button class="more-info-button" onclick="toggleInfophd()">View Colleges</button>
+                <div class="more-info-content" id="moreInfophd">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for Pharm.D</b><br>
+                        1.JSS College of Pharmacy(JSSCOP), Ooty<br>
+                        2.JSS Academy of Higher Education and Research, Mysore<br>
+                        3.Manipal College of Pharmaceutical Sciences(MCOPS), Manipal<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bp.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Pharmacy(B.Pharm)<br>
+                <button class="more-info-button" onclick="toggleInfobph()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobph">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Pharm</b><br>
+                        1.National Institute of Pharmaceutical Education and Research(NIPER), Hyderabad<br>
+                        2.Jamia Hamdard University, New Delhi<br>
+                        3.JSS College of Pharmacy(JSSCOP), Ooty<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bpa.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Pharmacy(Ayurveda)(B.Pharm(Ayu))<br>
+                <button class="more-info-button" onclick="toggleInfobpha()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobpha">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Pharm(Ayu)</b><br>
+                        1.Banaras Hindu University, Varanasi<br>
+                        2.Jadavpur University, Kolkata<br>
+                        3.Institute of Medical Sciences(IMS) BHU, Varanasi<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bvs.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Veterinary Sciences(B.V.Sc)<br>
+                <button class="more-info-button" onclick="toggleInfobvs()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobvs">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.V.Sc</b><br>
+                        1.National Dairy Research Institute(NDRI), Karnal, Haryana<br>
+                        2.Indian Veterinary Research Institute(IVRI), Bareilly, Uttar Pradesh<br>
+                        3.Tamil Nadu Veterinary and Animal Sciences University(TANUVAS), Chennai<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bfs.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Fisheries Sciences(B.F.Sc)<br>
+                <button class="more-info-button" onclick="toggleInfobfs()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobfs">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.F.Sc</b><br>
+                        1.Central Institute of Fisheries Education(CIFE), Mumbai<br>
+                        2.Govind Ballabh Pant University of Agriculture and Technology, Pantnagar, Uttarakhand<br>
+                        3.Tamil Nadu Veterinary and Animal Sciences University(TANUVAS), Chennai<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bsca.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Science(Agriculture)(B.Sc(Agri))<br>
+                <button class="more-info-button" onclick="toggleInfobagr()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobagr">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Sc(Agri)</b><br>
+                        1.Indian Agricultural Research Institute(IARI), New Delhi<br>
+                        2.National Dairy Research Institute(NDRI), Karnal, Haryana<br>
+                        3.Punjab Agricultural University(PAU), Ludhiana<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bss.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              Bachelor of Science(Sericulture)(B.Sc(Sericulture))<br>
+                <button class="more-info-button" onclick="toggleInfobser()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobser">
+                    <p class="colleges" style="color:black">
+                    <b>Top colleges for B.Sc(Sericulture)</b><br>
+                        1.Tamil Nadu Agricultural University, Coimbatore<br>
+                        2.Sher-e-Kashmir University of Agricultural Sciences and Technology of Kashmir(SKUAST), Srinagar<br>
+                        3.University of Agricultural Sciences(UAS), Bangalore<br>
+                </p>
+                  </div>
+            </div>
+          </div>
+    </div>
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav {
+      background-color: #370138;
+  }
+  nav ul li.heading{
+      margin-right: 700px;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+  }
+  
+  nav ul li {
+      margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+      margin-right: 0;
+  }
+  
+  nav ul li a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  nav ul li a:hover {
+      background-color: rgb(172, 7, 181);
+  }
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color:white(231, 230, 234, 0.8);
+    border: 1px solid white(12, 4, 4, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(78, 2, 2);
+  }
+  .info{
+      text-align: center;
+      font-size: 20px;
+      color:rgb(40, 108, 5)
+  }
+  .image-container {
+     
+      overflow: hidden;
+      border-radius: 10%;
+  }
+.help{
+    font-size: 12px;
+}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+  .footerinfo{
+      font-size: 18px;
+  }
+  .more-info-button {
+    background-color:rgb(4, 40, 81);
+    color: rgb(236, 240, 240);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .more-info-content {
+    color:indigo;
+    display: none;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .image-container {
+   overflow:hidden;
+    border-radius:25px;
+  }
+  .colleges{
+    font-size: 17px;
+  }
+  </style>
+<script>
+function toggleInfombbs() {
+  var moreInfombbs = document.getElementById("moreInfombbs");
+  if (moreInfombbs.style.display === "none") {
+    moreInfombbs.style.display = "block";
+  } else {
+    moreInfombbs.style.display = "none";
+  }
+}
+function toggleInfobds() {
+  var moreInfobds = document.getElementById("moreInfobds");
+  if (moreInfobds.style.display === "none") {
+    moreInfobds.style.display = "block";
+  } else {
+    moreInfobds.style.display = "none";
+  }
+}
+function toggleInfobams() {
+  var moreInfobams = document.getElementById("moreInfobams");
+  if (moreInfobams.style.display === "none") {
+    moreInfobams.style.display = "block";
+  } else {
+    moreInfobams.style.display = "none";
+  }
+}
+function toggleInfobnys() {
+  var moreInfobnys = document.getElementById("moreInfobnys");
+  if (moreInfobnys.style.display === "none") {
+    moreInfobnys.style.display = "block";
+  } else {
+    moreInfobnys.style.display = "none";
+  }
+}
+function toggleInfobsms() {
+  var moreInfobsms = document.getElementById("moreInfobsms");
+  if (moreInfobsms.style.display === "none") {
+    moreInfobsms.style.display = "block";
+  } else {
+    moreInfobsms.style.display = "none";
+  }
+}
+function toggleInfobhms() {
+  var moreInfobhms = document.getElementById("moreInfobhms");
+  if (moreInfobhms.style.display === "none") {
+    moreInfobhms.style.display = "block";
+  } else {
+    moreInfobhms.style.display = "none";
+  }
+}
+function toggleInfobums() {
+  var moreInfobums = document.getElementById("moreInfobums");
+  if (moreInfobums.style.display === "none") {
+    moreInfobums.style.display = "block";
+  } else {
+    moreInfobums.style.display = "none";
+  }
+}
+function toggleInfonurs() {
+  var moreInfonurs = document.getElementById("moreInfonurs");
+  if (moreInfonurs.style.display === "none") {
+    moreInfonurs.style.display = "block";
+  } else {
+    moreInfonurs.style.display = "none";
+  }
+}
+function toggleInfoopto() {
+  var moreInfoopto = document.getElementById("moreInfoopto");
+  if (moreInfoopto.style.display === "none") {
+    moreInfoopto.style.display = "block";
+  } else {
+    moreInfoopto.style.display = "none";
+  }
+}
+function toggleInfobot() {
+  var moreInfobot = document.getElementById("moreInfobot");
+  if (moreInfobot.style.display === "none") {
+    moreInfobot.style.display = "block";
+  } else {
+    moreInfobot.style.display = "none";
+  }
+}
+function toggleInfobpt() {
+  var moreInfobpt = document.getElementById("moreInfobpt");
+  if (moreInfobpt.style.display === "none") {
+    moreInfobpt.style.display = "block";
+  } else {
+    moreInfobpt.style.display = "none";
+  }
+}
+function toggleInfotcm() {
+  var moreInfotcm = document.getElementById("moreInfotcm");
+  if (moreInfotcm.style.display === "none") {
+    moreInfotcm.style.display = "block";
+  } else {
+    moreInfotcm.style.display = "none";
+  }
+}
+function toggleInfophd() {
+  var moreInfophd = document.getElementById("moreInfophd");
+  if (moreInfophd.style.display === "none") {
+    moreInfophd.style.display = "block";
+  } else {
+    moreInfophd.style.display = "none";
+  }
+}
+function toggleInfobph() {
+  var moreInfobph = document.getElementById("moreInfobph");
+  if (moreInfobph.style.display === "none") {
+    moreInfobph.style.display = "block";
+  } else {
+    moreInfobph.style.display = "none";
+  }
+}
+function toggleInfobpha() {
+  var moreInfobpha = document.getElementById("moreInfobpha");
+  if (moreInfobpha.style.display === "none") {
+    moreInfobpha.style.display = "block";
+  } else {
+    moreInfobpha.style.display = "none";
+  }
+}
+function toggleInfobvs() {
+  var moreInfobvs = document.getElementById("moreInfobvs");
+  if (moreInfobvs.style.display === "none") {
+    moreInfobvs.style.display = "block";
+  } else {
+    moreInfobvs.style.display = "none";
+  }
+}
+function toggleInfobfs() {
+  var moreInfobfs = document.getElementById("moreInfobfs");
+  if (moreInfobfs.style.display === "none") {
+    moreInfobfs.style.display = "block";
+  } else {
+    moreInfobfs.style.display = "none";
+  }
+}w
+function toggleInfobagr() {
+  var moreInfobagr = document.getElementById("moreInfobagr");
+  if (moreInfobagr.style.display === "none") {
+    moreInfobagr.style.display = "block";
+  } else {
+    moreInfobagr.style.display = "none";
+  }
+}
+function toggleInfobser() {
+  var moreInfobser = document.getElementById("moreInfobser");
+  if (moreInfobser.style.display === "none") {
+    moreInfobser.style.display = "block";
+  } else {
+    moreInfobser.style.display = "none";
+  }
+}
+</script>
+  </html>

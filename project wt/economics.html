@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>law Info</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="heading"><a href="#" ><b>Student Path</b></a></li>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+            Pursuing economics at the undergraduate level serves as a solid foundation for advanced studies in economics, business, finance, public policy, law, and related fields. It opens up opportunities for postgraduate studies and research in specialized areas of economics.<br>
+            Click the view colloges button under each field to see the top 3 colleges in india offering the course.<br>
+        </p>
+        <div class="grid-container">
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="baeh.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              B.A.in Economics(Hons.)<br>
+                    <button class="more-info-button" onclick="toggleInfobae()">View Colleges</button>
+           
+            <div class="more-info-content" id="moreInfobae">
+                <p class="colleges">
+                <b>Top colleges for  B.A.in Economics(Hons.)</b><br>
+                1.Delhi School of Economics, University of Delhi<br>
+                2.Loyola College, Chennai<br>
+                3.St. Xavier's College, Kolkata<br>
+            </p>
+              </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bsche.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                B.Sc.in Economics(Hons.)<br>
+                    <button class="more-info-button" onclick="toggleInfobsce()">View Colleges </button>
+                    <div class="more-info-content" id="moreInfobsce">
+                        <p class="colleges">
+                        <b>Top colleges for B.Sc.in Economics(Hons.)</b><br>
+                        1.St. Stephen's College, Delhi<br>
+                        2.Lady Shri Ram College for Women (LSR), Delhi<br>
+                        3.Loyola College, Chennai<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bae.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              B.A in Economics<br>
+                    <button class="more-info-button" onclick="toggleInfoba()">View Colleges</button>
+                    <div class="more-info-content" id="moreInfoba">
+                        <p class="colleges">
+                        <b>Top colleges for  B.A in Economics</b><br>
+                            1.St. Stephen's College, Delhi<br>
+                            2.Loyola College, Chennai<br>
+                            3.Presidency College, Chennai<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bsce.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                B.Sc in Economics<br>
+                <button class="more-info-button" onclick="toggleInfobse()">View Colleges</button>
+                <div class="more-info-content" id="moreInfobse">
+                    <p class="colleges">
+                    <b>Top colleges for B.Sc in Economics</b><br>
+                        1.Delhi School of Economics, University of Delhi<br>
+                        2.St. Stephen's College, Delhi<br>
+                        3.Loyola College, Chennai<br>
+                </p>
+                  </div>
+            </div>
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav {
+      background-color: #370138;
+  }
+  nav ul li.heading{
+      margin-right: 700px;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+  }
+  
+  nav ul li {
+      margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+      margin-right: 0;
+  }
+  
+  nav ul li a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  nav ul li a:hover {
+      background-color: rgb(172, 7, 181);
+  }
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:white(231, 230, 234, 0.8);
+    border: 1px solid white(12, 4, 4, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(78, 2, 2);
+  }
+  .info{
+      text-align: center;
+      font-size: 20px;
+      color:rgb(40, 108, 5)
+  }
+  .image-container {
+      overflow: hidden;
+      border-radius: 10%;
+  }
+.help{
+    font-size: 12px;
+}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:black;
+    color: white;
+  }
+  .footerinfo{
+      font-size: 18px;
+  }
+  .more-info-button {
+    background-color: rgb(51,6,54);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .more-info-content {
+    color:indigo;
+    display: none;
+    margin-top: 10px;
+  }
+  .colleges{
+    font-size: 17px;
+  }
+  </style>
+<script>
+function toggleInfobae() {
+  var moreInfobae = document.getElementById("moreInfobae");
+  if (moreInfobae.style.display === "none") {
+    moreInfobae.style.display = "block";
+  } else {
+    moreInfobae.style.display = "none";
+  }
+}
+function toggleInfobsce() {
+  var moreInfobsce = document.getElementById("moreInfobsce");
+  if (moreInfobsce.style.display === "none") {
+    moreInfobsce.style.display = "block";
+  } else {
+    moreInfobsce.style.display = "none";
+  }
+}
+function toggleInfoba() {
+  var moreInfoba = document.getElementById("moreInfoba");
+  if (moreInfoba.style.display === "none") {
+    moreInfoba.style.display = "block";
+  } else {
+    moreInfoba.style.display = "none";
+  }
+}
+function toggleInfobse() {
+  var moreInfobse = document.getElementById("moreInfobse");
+  if (moreInfobse.style.display === "none") {
+    moreInfobse.style.display = "block";
+  } else {
+    moreInfobse.style.display = "none";
+  }
+}
+</script>
+  </html>

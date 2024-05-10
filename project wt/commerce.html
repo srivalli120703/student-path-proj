@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Info</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="heading"><a href="#" ><b>Student Path</b></a></li>
+            <li><a href="dashboard.html">Home</a></li>
+            <li><a href="aboutpage.html">About</a></li>
+            <li><a href="contactpage.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="info">
+        <p>
+            A commerce course after completing 12th grade can open up a wide range of career opportunities in various fields such as finance, accounting, business management, economics, and more. <br>
+            Here are the different commerce courses<br>
+            Click the view colloges button under each field to see the top 3 colleges in india offering the course.<br>
+        </p>
+        <div class="grid-container">
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bcom.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                B.com(Bachelor in commerce)<br>
+                    <button class="more-info-button" onclick="toggleInfocom()">View Colleges</button>
+           
+            <div class="more-info-content" id="moreInfocom">
+                <p class="colleges">
+                <b>Top colleges for B.com</b><br>
+                        1.Shri Ram College of Commerce (SRCC), Delhi<br>
+                        2.Lady Shri Ram College for Women (LSR), Delhi<br>
+                        3.Loyola College, Chennai<br>
+            </p>
+              </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bcomh.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                B.com(Hons.)(Bachelor in commerce)(Hons.)<br>
+                    <button class="more-info-button" onclick="toggleInfocomh()">View Colleges </button>
+                    <div class="more-info-content" id="moreInfocomh">
+                        <p class="colleges">
+                        <b>Top colleges for B.com(Hons.)</b><br>
+                        1.Shri Ram College of Commerce (SRCC), Delhi<br>
+                        2.Lady Shri Ram College for Women (LSR), Delhi<br>
+                        3.Hindu College, Delhi<br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bscf.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+                B.Sc(Finance)(Bachelor in Science with specialization in Finance)<br>
+                    <button class="more-info-button" onclick="toggleInfof()">View Colleges</button>
+                    <div class="more-info-content" id="moreInfof">
+                        <p class="colleges">
+                        <b>Top colleges for B.Sc(Finance)</b><br>
+                            1.Indian Institute of Management (IIM) Calcutta<br>
+                            2.University of Delhi - Delhi School of Economics<br>
+                            3.University of Mumbai - Jamnalal Bajaj Institute of Management Studies (JBIMS) <br>
+                    </p>
+                      </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bbaf.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              BBA(Finance)(Bachelor in Business Administration with specialization in Finance)<br>
+                <button class="more-info-button" onclick="toggleInfoaf()">View Colleges</button>
+                <div class="more-info-content" id="moreInfoaf">
+                    <p class="colleges">
+                    <b>Top colleges for BBA(Finance)</b><br>
+                        1.Shaheed Sukhdev College of Business Studies (SSCBS), Delhi<br>
+                        2.Narsee Monjee Institute of Management Studies (NMIMS), Mumbai<br>
+                        3.Christ University, Bengaluru<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bfa.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              BFA(Bachelor in Financial Accounting)<br>
+                <button class="more-info-button" onclick="toggleInfofa()">View Colleges</button>
+                <div class="more-info-content" id="moreInfofa">
+                    <p class="colleges">
+                    <b>Top colleges for BFA</b><br>
+                        1.Indian Institute of Management (IIM), Ahmedabad<br>
+                        2.Indian Institute of Management (IIM), Bangalore<br>
+                        3.Indian School of Business (ISB), Hyderabad<br>
+                </p>
+                  </div>
+            </div>
+            <div class="grid-item"><br>
+              <div class="image-container">
+                <img src="bcomp.jpg" style="width:273.39px;height:210px;border-radius:25px"><br>
+                </div>
+              B.Com.(Professional)(Bachelor in Commerce(Professional))<br>
+                <button class="more-info-button" onclick="toggleInfocomp()">View Colleges</button>
+                <div class="more-info-content" id="moreInfocomp">
+                    <p class="colleges">
+                    <b>Top colleges for B.Com.(Professional)</b><br>
+                        1.Shri Ram College of Commerce (SRCC), Delhi<br>
+                        2.Lady Shri Ram College for Women (LSR), Delhi<br>
+                        3.Loyola College, Chennai:<br>
+                </p>
+                  </div>
+            </div>
+          </div>
+    </div>
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 25px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav {
+      background-color: #370138;
+  }
+  nav ul li.heading{
+      margin-right: 700px;
+  }
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: left;
+  }
+  
+  nav ul li {
+      margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+      margin-right: 0;
+  }
+  
+  nav ul li a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+  }
+  
+  nav ul li a:hover {
+      background-color:rgb(172, 7, 181);
+  }
+  .grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color:white(231, 230, 234, 0.8);
+    border: 1px solid white(12, 4, 4, 0.8);
+    padding: 40px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(78, 2, 2);
+  }
+  .info{
+      text-align: center;
+      font-size: 20px;
+      color:rgb(40, 108, 5)
+  }
+  .image-container {
+     
+      overflow: hidden;
+      border-radius: 10%;
+  }
+.help{
+    font-size: 12px;
+}
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+  }
+  .footerinfo{
+      font-size: 18px;
+  }
+  .more-info-button {
+    background-color: rgb(51,6,54);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .more-info-content {
+    color:indigo;
+    display: none;
+    margin-top: 10px;
+  }
+  .colleges{
+    font-size: 17px;
+  }
+  </style>
+<script>
+function toggleInfocom() {
+  var moreInfocom = document.getElementById("moreInfocom");
+  if (moreInfocom.style.display === "none") {
+    moreInfocom.style.display = "block";
+  } else {
+    moreInfocom.style.display = "none";
+  }
+}
+function toggleInfocomh(){
+  var moreInfocomh = document.getElementById("moreInfocomh");
+  if (moreInfocomh.style.display === "none") {
+    moreInfocomh.style.display = "block";
+  } else {
+    moreInfocomh.style.display = "none";
+  }
+}
+function toggleInfof() {
+  var moreInfof = document.getElementById("moreInfof");
+  if (moreInfof.style.display === "none") {
+    moreInfof.style.display = "block";
+  } else {
+    moreInfof.style.display = "none";
+  }
+}
+function toggleInfofa() {
+  var moreInfofa = document.getElementById("moreInfofa");
+  if (moreInfofa.style.display === "none") {
+    moreInfofa.style.display = "block";
+  } else {
+    moreInfofa.style.display = "none";
+  }
+}
+function toggleInfoaf() {
+  var moreInfoaf = document.getElementById("moreInfoaf");
+  if (moreInfoaf.style.display === "none") {
+    moreInfoaf.style.display = "block";
+  } else {
+    moreInfoaf.style.display = "none";
+  }
+}
+function toggleInfocomp() {
+  var moreInfocomp = document.getElementById("moreInfocomp");
+  if (moreInfocomp.style.display === "none") {
+    moreInfocomp.style.display = "block";
+  } else {
+    moreInfocomp.style.display = "none";
+  }
+}
+</script>
+  </html>
